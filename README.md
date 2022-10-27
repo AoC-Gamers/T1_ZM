@@ -7,10 +7,12 @@
 - Sistema de bonus del modo versus.
 - Sin restricciones para las armas smg, smg_silenced, pumpshotgun y shotgun_chrome.
 - Sin restricciones de reaparición de infectados bot.
-- El pause se limita a 3 veces.
-- El rango de lerps para la interpolación es de 1 a 100.
+- El rango de lerps para la interpolación es de 0 a 100.
 - El pause se podrá iniciar 3 veces.
 - La IA de los infectados bot modificada.
+- La IA de los infectados bot modificada.
+- Se podrá cancelar el inicio de readyup solo 1 vez.
+- El pause se limita a 1 veces.
 
 # Copyright
 - Tier1 ZM es una adaptación usando como base la configuración "Zonemod 2.x". 
