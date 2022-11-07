@@ -1,4 +1,4 @@
-# Tier1 ZM v1.0
+# Tier1 ZM v2.8
 
 [EN] [translation](https://translate.google.com/translate?sl=es&tl=en&u=https://github.com/lechuga16/T1_ZM)
 
