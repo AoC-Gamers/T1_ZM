@@ -3,20 +3,18 @@
 [EN] [translation](https://translate.google.com/translate?sl=es&tl=en&u=https://github.com/lechuga16/T1_ZM)
 
 # Diferencias Generales de ZM
-- 4 Píldoras en el mapa.
 - Sistema de bonus zonemod reemplazado por el predeterminado.
-- Sin restricciones para las armas smg, smg_silenced, pumpshotgun y shotgun_chrome.
-- Pistola Magnum limitada a 1.
+- Sin restricciones para las armas smg, shotgun
 - Sin restricciones de reaparición de infectado bot.
 - El rango de lerps para la interpolación es de 0 a 100.
 - Se podrá cancelar el inicio de readyup solo 1 vez.
-- Él pause se limita a 1 veces.
 - Votación de modos de juego deshabilitado.
 
 # Complementos deshabilitados
 - botpopstop: Se impide a los bots usar píldoras.
 - l4d2_hybrid_scoremod_zone: Sistema de bonus.
 - autopause: pausa cuando un jugador se desconecta.
+- pause: pausa manual.
 
 # Complementos sugeridos
 - [anti-friendly_fire](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/anti-friendly_fire)
