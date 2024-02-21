@@ -280,6 +280,12 @@ void CancelFullReady(int client, disruptType type)
 	}
 }
 
+/**
+ * Adds an unready count for a client.
+ *
+ * @param client The client index.
+ * @return True if the unready count was successfully added, false otherwise.
+ */
 bool AddUnReadyCount(int client)
 {
 	char authId[18];
@@ -292,7 +298,7 @@ bool AddUnReadyCount(int client)
 	{
 		CPrintToChat(client, "%t %t", "Tag", "UnReadyLimit", unReadyLimit);
 		return false;
-    }
+	}
 
 	unReadyCount++;
 	playerunReadyCount.SetValue(authId, unReadyCount);
@@ -300,12 +306,18 @@ bool AddUnReadyCount(int client)
 	return true;
 }
 
+/**
+ * Returns the number of unready(s) for a given client.
+ *
+ * @param client The client index.
+ * @return The number of unready players.
+ */
 int GetUnReadyCount(int client)
 {
-    char authId[18];
-    GetClientAuthId(client, AuthId_SteamID64, authId, 18, false);
-    int unReadyCount = 0;
-    playerunReadyCount.GetValue(authId, unReadyCount);
+	char authId[18];
+	GetClientAuthId(client, AuthId_SteamID64, authId, 18, false);
+	int unReadyCount = 0;
+	playerunReadyCount.GetValue(authId, unReadyCount);
 
-    return unReadyCount;
+	return unReadyCount;
 }
