@@ -11,7 +11,6 @@
 - Votación de modos de juego deshabilitado.
 
 # Complementos deshabilitados
-- botpopstop: Se impide a los bots usar píldoras.
 - l4d2_hybrid_scoremod_zone: Sistema de bonus.
 - autopause: pausa cuando un jugador se desconecta.
 - pause: pausa manual.
